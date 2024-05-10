@@ -40,7 +40,7 @@ import Data.Integer
 0ℝ = ℤ.0ℤ , Colist.[]
 
 1ℝ : ℝ
-1ℝ = {!!}
+1ℝ = ℤ.1ℤ , Colist.[]
 
 _≥_ : ℝ → ℝ → Set
 _≥_ = {!!}
