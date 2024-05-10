@@ -80,6 +80,8 @@
 \begin{document}
 \maketitle
 
+\section{le vrici / The Miscellaneous}
+
 \begin{code}
 {-# OPTIONS --sized-types #-}
 
@@ -114,27 +116,60 @@ open import Codata.Colist
 
 import Data.Integer
   as ℤ
+\end{code}
 
+\section{la'oi .\F ℝ.}
+
+\begin{code}
 ℝ : Set
 ℝ = ℤ.ℤ × Colist (Fin 10) ∞
+\end{code}
 
+\subsection{le ctaipe be la'oi .\F ℝ.\ be'o poi pilno ke'a tu'a lo se skari / The Values (of ℝ) which are Used for the Colours}
+
+\subsubsection{la'oi .\F{0ℝ}.}
+\begin{code}
 0ℝ : ℝ
 0ℝ = ℤ.0ℤ , Colist.[]
+\end{code}
 
+\subsubsection{la'oi .\F{1ℝ}.}
+\begin{code}
 1ℝ : ℝ
 1ℝ = ℤ.1ℤ , Colist.[]
+\end{code}
 
+\subsection{le fancu pe la'oi .\F ℝ. / Functions of ℝ}
+
+\subsubsection{la'oi .\F{\AgdaUnderscore{}≥\AgdaUnderscore}.}
+
+\begin{code}
 _≥_ : ℝ → ℝ → Set
 _≥_ = {!!}
+\end{code}
 
+\subsubsection{la'oi .\F{\AgdaUnderscore{}<\AgdaUnderscore}.}
+
+\begin{code}
 _<_ : ℝ → ℝ → Set
 _<_ = {!!}
+\end{code}
 
+\section{la'oi .\F{Intensity}.}
+
+\begin{code}
 Intensity : Set
 Intensity = Σ ℝ $ λ q → 1ℝ ≥ q × q ≥ 0ℝ
+\end{code}
 
+\section{la'oi .\F{ElectroMagneticWavelength}.}
+
+\end{code}
 ElectroMagneticWavelength : Set
 ElectroMagneticWavelength = Σ ℝ $ _<_ 0ℝ
+\end{code}
+
+\section{la'oi .\F{Colour}.}
 
 Colour : Set
 Colour = List $ ElectroMagneticWavelength × Intensity
