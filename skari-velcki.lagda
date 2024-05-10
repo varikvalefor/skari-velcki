@@ -1,6 +1,4 @@
 \begin{code}
-import Data.Integer
-  as ℤ
 open import Data.List
   using (
     List
@@ -15,6 +13,9 @@ open import Data.Rational
   using (
     ℚ
   )
+
+import Data.Integer
+  as ℤ
 
 Intensity : Set
 Intensity = Σ ℚ $ λ q → ℚ.1ℚ ℚ.≥ q × q ℚ.≥ ℚ.0ℚ
