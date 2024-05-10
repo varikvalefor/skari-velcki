@@ -82,10 +82,10 @@
 
 \section{le krinu}
 \paragraph{la .lojban.}
-ni'o le pilno be la'oi .Discord. cu cpedu lo nu su'o da poi ke'a skari zo'u la .varik. cu skicu da fo lo .indika be tu'a lo no se skari poi ke'a na du da  .i la'e di'u krinu le nu la .varik. cu ciksi le ctaipe be lo so'i se skari
+ni'o le pilno be la'oi .Discord. cu cpedu lo nu su'o da poi ke'a skari zo'u la .varik. cu skicu da fo lo .indika be tu'a lo no se skari poi ke'a na du da  .i la'e di'u krinu le nu la .varik. cu ciksi le ctaipe be lo ro se skari
 
 \paragraph{English}
-A user of Discord requests that VARIK writes a description (of a colour $s$) $v$ such that $v$ references no colour which is not $s$.  That (the user requests) justifies that VARIK defines the type of many colours.
+A user of Discord requests that VARIK writes a description (of a colour $s$) $v$ such that $v$ references no colour which is not $s$.  That (the user requests) justifies that VARIK defines the type of all colours.
 
 \section{le vrici / The Miscellaneous}
 
