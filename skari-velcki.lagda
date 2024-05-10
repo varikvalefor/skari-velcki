@@ -22,6 +22,7 @@ open import Data.List
 open import Data.Product
   using (
     _×_;
+    _,_;
     Σ
   )
 open import Codata.Colist
@@ -36,7 +37,7 @@ import Data.Integer
 ℝ = ℤ.ℤ × Colist (Fin 10) ∞
 
 0ℝ : ℝ
-0ℝ = {!!}
+0ℝ = ℤ.0ℤ , Colist.[]
 
 1ℝ : ℝ
 1ℝ = {!!}
