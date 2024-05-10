@@ -171,13 +171,14 @@ Intensity = Σ ℝ $ λ q → 1ℝ ≥ q × q ≥ 0ℝ
 
 \section{la'oi .\F{ElectroMagneticWavelength}.}
 
-\end{code}
+\begin{code}
 ElectroMagneticWavelength : Set
 ElectroMagneticWavelength = Σ ℝ $ _<_ 0ℝ
 \end{code}
 
 \section{la'oi .\F{Colour}.}
 
+\begin{code}
 Colour : Set
 Colour = List $ ElectroMagneticWavelength × Intensity
 \end{code}
