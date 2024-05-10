@@ -74,7 +74,7 @@
 \newcommand\B\AgdaBound
 \newcommand\OpF[1]{\AgdaOperator{\F{#1}}}
 
-\title{le velcki be le se ctaipe be le ro skari / The Definition of the Type of All Colours}
+\title{le velcki be le se ctaipe be le ro se skari / The Definition of the Type of All Colours}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
