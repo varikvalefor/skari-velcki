@@ -130,10 +130,7 @@ import Data.Integer
 
 \section{la'oi .\F ℝ.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u  .i ro da poi ke'a kacna'u zo'u\ldots
-\begin{itemize}
-	\ga jonai da dubjavmau li no je cu du lo ctaipe be la'oi .\F ℝ.\ be'o poi ke'a .orsi li re ko'a goi lo me'oi .floor.\ be da lo sinxa be zo'e poi da du lo sumji be ko'a bei ke'a xi re\ gi
-	\item da du lo ctaipe be la'oi .\F ℝ.\ be'o poi ke'a .orsi li re ko'a goi lo me'oi .floor.\ be da lo sinxa be zo'e poi da du lo sumji be ko'a bei lo vujnu be li no bei ke'a xi re
+ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u  .i ro da poi ke'a ctaipe la'oi .\F ℝ.\ zo'u da du lo namcu poi ke'a sumji ko'a goi lo mu'oi zoi.\ \AgdaField{proj₁}\ .zoi.\ be da bei lo pilji be lo se ke me'oi .decimal. sinxa be lo mu'oi zoi.\ \AgdaField{proj₂}\ .zoi.\ be ke'a be'o be'o bei zo'e poi ga jonai ga je ko'a dubjavmau li no gi da du li pa gi da du li ni'u pa
 \end{itemize}
 
 \paragraph{English}
