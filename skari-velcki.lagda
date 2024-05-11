@@ -93,6 +93,9 @@ A user of Discord requests that VARIK writes a description (of a colour $s$) $v$
 {-# OPTIONS --sized-types #-}
 
 open import Size
+  using (
+    ∞
+  )
 open import Data.Fin
   using (
     Fin
