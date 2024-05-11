@@ -159,6 +159,12 @@ ni'o la'oi .\F{0ℝ}.\ du li no
 \end{code}
 
 \subsubsection{la'oi .\F{1ℝ}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{1ℝ}.\ du li pa
+
+\paragraph{English}
+\F{1ℝ} is 1.
+
 \begin{code}
 1ℝ : ℝ
 1ℝ = ℤ.1ℤ , Colist.[]
