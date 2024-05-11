@@ -182,6 +182,11 @@ _≥_ = {!!}
 \end{code}
 
 \subsubsection{la'oi .\F{\AgdaUnderscore{}<\AgdaUnderscore}.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \B x \OpF < \B z\ .zoi.\ gi la'oi .\B x.\ mleca la'oi .\B z.
+
+\paragraph{English}
+A proof of \B x \OpF < \B z\ exists iff \B z exceeds \B x.
 
 \begin{code}
 _<_ : ℝ → ℝ → Set
