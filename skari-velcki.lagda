@@ -132,7 +132,7 @@ import Data.Integer
 \paragraph{la .lojban.}
 ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u  .i ro da poi ke'a kacna'u zo'u\ldots
 \begin{itemize}
-	\ga jonai da dubjavme'a li no je cu du lo ctaipe be la'oi .\F ℝ.\ be'o poi ke'a .orsi li re ko'a goi lo me'oi .floor.\ be da lo sinxa be zo'e poi da du lo sumji be ko'a bei ke'a xi re\ gi
+	\ga jonai da dubjavmau li no je cu du lo ctaipe be la'oi .\F ℝ.\ be'o poi ke'a .orsi li re ko'a goi lo me'oi .floor.\ be da lo sinxa be zo'e poi da du lo sumji be ko'a bei ke'a xi re\ gi
 	\item da du lo ctaipe be la'oi .\F ℝ.\ be'o poi ke'a .orsi li re ko'a goi lo me'oi .floor.\ be da lo sinxa be zo'e poi da du lo sumji be ko'a bei lo vujnu be li no bei ke'a xi re
 \end{itemize}
 
