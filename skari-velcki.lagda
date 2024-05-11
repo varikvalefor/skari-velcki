@@ -131,7 +131,6 @@ import Data.Integer
 \section{la'oi .\F ℝ.}
 \paragraph{la .lojban.}
 ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u  .i ro da poi ke'a ctaipe la'oi .\F ℝ.\ zo'u da du lo namcu poi ke'a sumji ko'a goi lo mu'oi zoi.\ \AgdaField{proj₁}\ .zoi.\ be da bei lo pilji be lo se ke me'oi .decimal. sinxa be lo mu'oi zoi.\ \AgdaField{proj₂}\ .zoi.\ be ke'a be'o be'o bei zo'e poi ga jonai ga je ko'a dubjavmau li no gi da du li pa gi da du li ni'u pa
-\end{itemize}
 
 \paragraph{English}
 \F ℝ is the type of all real numbers.  For all real numbers $r$, $r \geq 0$ iff $r$ equals the \F ℝ \B s such that (\AgdaField{proj₁} \B s\ is the floor of $r$, and \AgdaField{proj₂} \B s\ represents a thing $t$ such that $r$ equals the sum of $t$ and the floor of $r$.  For all real numbers $r$, $r \ngeq 0$ iff $r$ equals the \F ℝ \B s such that (\AgdaField{proj₁} \B s\ is the floor of $r$, and \AgdaField{proj₂} \B s\ represents a thing $t$ such that $r$ equals the sum of $t$ and the negation of the floor of $r$.
