@@ -143,6 +143,12 @@ ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u
 \subsection{le ctaipe be la'oi .\F ℝ.\ be'o poi pilno ke'a tu'a lo se skari / The Values (of ℝ) which are Used for the Colours}
 
 \subsubsection{la'oi .\F{0ℝ}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{0ℝ}.\ du li no
+
+\paragraph{English}
+\F{0ℝ} is 0.
+
 \begin{code}
 0ℝ : ℝ
 0ℝ = ℤ.0ℤ , Colist.[]
