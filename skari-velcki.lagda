@@ -126,6 +126,11 @@ import Data.Integer
 \end{code}
 
 \section{la'oi .\F ℝ.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u
+
+\paragraph{English}
+\F ℝ is the type of all real numbers.
 
 \begin{code}
 ℝ : Set
