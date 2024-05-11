@@ -170,6 +170,11 @@ ni'o la'oi .\F{1ℝ}.\ du li pa
 \subsection{le fancu pe la'oi .\F ℝ. / Functions of ℝ}
 
 \subsubsection{la'oi .\F{\AgdaUnderscore{}≥\AgdaUnderscore}.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \B x \OpF ≥ \B z\ .zoi.\ gi la'oi .\B x.\ dubjavmau la'oi .\B z.
+
+\paragraph{English}
+A proof of \B x \OpF ≥ \B z\ exists iff \B x exceeds (or equals) \B z.
 
 \begin{code}
 _≥_ : ℝ → ℝ → Set
