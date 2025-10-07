@@ -210,6 +210,6 @@ ElectroMagneticWavelength = Σ ℝ $ _<_ 0ℝ
 
 \begin{code}
 Colour : Set
-Colour = List $ ElectroMagneticWavelength × Intensity
+Colour = ElectroMagneticWavelength → Intensity
 \end{code}
 \end{document}
