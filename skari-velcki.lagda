@@ -203,10 +203,20 @@ Intensity = Σ ℝ $ λ q → 1ℝ ≥ q × q ≥ 0ℝ
 
 \begin{code}
 ElectroMagneticWavelength : Set
-ElectroMagneticWavelength = Σ ℝ $ _<_ 0ℝ
+ElectroMagneticWavelength = Σ ℝ $ 0ℝ <_
 \end{code}
 
 \section{la'oi .\F{Colour}.}
+\paragraph{la .lojban.}
+ni'o ro da poi ke'a ctaipe la'oi .\F{Colour}.\ zo'u pa de poi ke'a zilska zo'u ga je da sinxa de gi ro di poi ke'a ctaipe la'o zoi.\ \F{ElectroMagneticWavelength}\ .zoi.\ zo'u lo me da be di cu ni di co'e ja pagbu de
+
+\paragraph{English}
+For all values (of \F{Colour}) \AgdaBound{c}, (\ldots
+
+\begin{itemize}
+	\item \AgdaBound{c} represents a colour, and
+	\item for all values (of \F{ElectroMagneticWavelength}) \AgdaBound{v}, \AgdaBound{c} \AgdaBound{v} is the extent of that (\AgdaBound{v} is a ``part'' of the colour which is represented by \Agdabound{c})).
+\end{itemize}
 
 \begin{code}
 Colour : Set
