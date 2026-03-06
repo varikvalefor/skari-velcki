@@ -123,6 +123,10 @@ open import Codata.Colist
   using (
     Colist
   )
+open import Relation.Nullary
+  using (
+    ¬_
+  )
 
 import Data.Integer
   as ℤ
@@ -189,7 +193,7 @@ A proof of \B x \OpF < \B z\ exists iff \B z exceeds \B x.
 
 \begin{code}
 _<_ : ℝ → ℝ → Set
-_<_ = {!!}
+_<_ = λ r s → s ≥ r × ¬ (r ≥ s)
 \end{code}
 
 \section{la'oi .\F{Intensity}.}
