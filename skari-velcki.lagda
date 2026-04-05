@@ -219,7 +219,7 @@ For all values (of \F{Colour}) \AgdaBound{c}, (\ldots
 
 \begin{itemize}
 	\item \AgdaBound{c} represents a colour, and
-	\item for all values (of \F{ElectroMagneticWavelength}) \AgdaBound{v}, \AgdaBound{c} \AgdaBound{v} is the extent of that (\AgdaBound{v} is a ``part'' of the colour which is represented by \Agdabound{c})).
+	\item for all values (of \F{ElectroMagneticWavelength}) \B{v}, \B{c} \B{v} is the extent of that (\B{v} is a ``part'' of the colour which is represented by \B{c})).
 \end{itemize}
 
 \begin{code}
