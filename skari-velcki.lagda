@@ -117,6 +117,7 @@ open import Data.List
 open import Data.Integer
   as ℤ
   using (
+    ℤ
   )
 open import Data.Product
   using (
