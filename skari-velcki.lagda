@@ -114,10 +114,6 @@ open import Data.List
   using (
     List
   )
-open import Data.List
-  using (
-    List
-  )
 open import Data.Maybe
   using (
     to-witness;
