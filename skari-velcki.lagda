@@ -207,7 +207,7 @@ data _≥_ (x z : ℝ) : Set where
      → (_ : (j : ℕ)
           → (ml : j ℕ.< i)
           → to-witness (jx₀ j ml) ≡ to-witness (jz₀ j ml))
-     → _
+     → x ≥ z
   tmp : {!!} → _
 \end{code}
 
