@@ -113,6 +113,11 @@ open import Data.List
   using (
     List
   )
+
+open import Data.Integer
+  as ℤ
+  using (
+  )
 open import Data.Product
   using (
     _×_;
@@ -127,9 +132,6 @@ open import Relation.Nullary
   using (
     ¬_
   )
-
-import Data.Integer
-  as ℤ
 \end{code}
 
 \section{la'oi .\F ℝ.}
