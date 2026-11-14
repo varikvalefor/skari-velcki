@@ -133,6 +133,11 @@ open import Relation.Nullary
   using (
     ¬_
   )
+open import Relation.Binary.PropositionalEquality
+  as ≡
+  using (
+    _≡_
+  )
 \end{code}
 
 \section{la'oi .\F ℝ.}
@@ -184,6 +189,7 @@ A proof of \B x \OpF ≥ \B z\ exists iff \B x exceeds (or equals) \B z.
 
 \begin{code}
 data _≥_ (x z : ℝ) : Set where
+  reflexivity : x ≡ z → x ≥ z
   tmp : {!!} → _
 \end{code}
 
