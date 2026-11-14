@@ -105,6 +105,11 @@ open import Function
     _∘_;
     _$_
   )
+open import Data.Nat
+  as ℕ
+  using (
+    ℕ
+  )
 open import Data.List
   using (
     List
@@ -112,6 +117,11 @@ open import Data.List
 open import Data.List
   using (
     List
+  )
+open import Data.Maybe
+  using (
+    to-witness;
+    Is-just
   )
 
 open import Data.Integer
@@ -190,6 +200,18 @@ A proof of \B x \OpF ≥ \B z\ exists iff \B x exceeds (or equals) \B z.
 \begin{code}
 data _≥_ (x z : ℝ) : Set where
   reflexivity : x ≡ z → x ≥ z
+  𝔽≥ : let lookup = Codata.Colist.lookup in
+       Σ.proj₁ x ℤ.≥ Σ.proj₁ z
+     → (i : ℕ)
+     → (jx : Is-just $ lookup i $ Σ.proj₂ x)
+     → (jz : Is-just $ lookup i $ Σ.proj₂ z)
+     → (jx₀ : (j : ℕ) → j ℕ.< i → Is-just $ lookup i $ Σ.proj₂ x)
+     → (jz₀ : (j : ℕ) → j ℕ.< i → Is-just $ lookup i $ Σ.proj₂ z)
+     → to-witness jx Data.Fin.≥ to-witness jz
+     → (_ : (j : ℕ)
+          → (ml : j ℕ.< i)
+          → to-witness (jx₀ j ml) ≡ to-witness (jz₀ j ml))
+     → _
   tmp : {!!} → _
 \end{code}
 
