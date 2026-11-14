@@ -196,7 +196,7 @@ A proof of \B x \OpF < \B z\ exists iff \B z exceeds \B x.
 
 \begin{code}
 _<_ : ℝ → ℝ → Set
-_<_ r s = s ≥ r × ¬ (r ≥ s)
+_<_ = λ r s → s ≥ r × ¬ (r ≥ s)
 \end{code}
 
 \section{la'oi .\F{Intensity}.}
