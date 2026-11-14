@@ -214,7 +214,6 @@ data _≥_ (x z : ℝ) : Set where
           → (ml : j ℕ.< i)
           → to-witness (jx₀ j ml) ≡ to-witness (jz₀ j ml))
      → x ≥ z
-  tmp : {!!} → _
 \end{code}
 
 \subsubsection{la'oi .\F{\AgdaUnderscore{}<\AgdaUnderscore}.}
