@@ -144,7 +144,7 @@ ni'o la'oi .\F ℝ.\ ctaipe lo ro mrena'u  .i ro da poi ke'a ctaipe la'oi .\F �
 
 \begin{code}
 ℝ : Set
-ℝ = ℤ.ℤ × Colist (Fin 10) ∞
+ℝ = ℤ × Colist (Fin 10) ∞
 \end{code}
 
 \subsection{le ctaipe be la'oi .\F ℝ.\ be'o poi pilno ke'a tu'a lo se skari / The Values (of ℝ) which are Used for the Colours}
@@ -196,7 +196,7 @@ A proof of \B x \OpF < \B z\ exists iff \B z exceeds \B x.
 
 \begin{code}
 _<_ : ℝ → ℝ → Set
-_<_ = λ r s → s ≥ r × ¬ (r ≥ s)
+_<_ r s = s ≥ r × ¬ (r ≥ s)
 \end{code}
 
 \section{la'oi .\F{Intensity}.}
