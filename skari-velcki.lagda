@@ -119,7 +119,6 @@ open import Data.Maybe
     to-witness;
     Is-just
   )
-
 open import Data.Integer
   as ℤ
   using (
