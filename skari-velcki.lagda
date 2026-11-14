@@ -203,7 +203,7 @@ data _≥_ (x z : ℝ) : Set where
      → (jz : Is-just $ lookup i $ Σ.proj₂ z)
      → (jx₀ : (j : ℕ) → j ℕ.< i → Is-just $ lookup i $ Σ.proj₂ x)
      → (jz₀ : (j : ℕ) → j ℕ.< i → Is-just $ lookup i $ Σ.proj₂ z)
-     → to-witness jx 𝔽.≥ to-witness jz
+     → to-witness jx 𝔽.> to-witness jz
      → (_ : (j : ℕ)
           → (ml : j ℕ.< i)
           → to-witness (jx₀ j ml) ≡ to-witness (jz₀ j ml))
