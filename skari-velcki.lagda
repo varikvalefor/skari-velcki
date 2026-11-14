@@ -170,7 +170,7 @@ ni'o la'oi .\F{1ℝ}.\ du li pa
 1ℝ = ℤ.1ℤ , Colist.[]
 \end{code}
 
-\subsection{le fancu pe la'oi .\F ℝ. / Functions of ℝ}
+\subsection{le fancu pe la'oi .\F ℝ.\ / Functions of ℝ}
 
 \subsubsection{la'oi .\F{\AgdaUnderscore{}≥\AgdaUnderscore}.}
 \paragraph{la .lojban.}
