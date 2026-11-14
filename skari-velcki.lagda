@@ -196,6 +196,12 @@ A proof of \B x \OpF ≥ \B z\ exists iff \B x exceeds (or equals) \B z.
 \begin{code}
 data _≥_ (x z : ℝ) : Set where
   reflexivity : x ≡ z → x ≥ z
+  pointwise : Σ.proj₁ x ≡ Σ.proj₁ z
+            → (_ : (i : ℕ)
+                 → (_≡_
+                     (Codata.Colist.lookup i $ Σ.proj₂ x)
+                     (Codata.Colist.lookup i $ Σ.proj₂ z)))
+            → x ≥ z
   𝔽≥ : let lookup = Codata.Colist.lookup in
        Σ.proj₁ x ℤ.≥ Σ.proj₁ z
      → (i : ℕ)
